@@ -518,6 +518,10 @@ public class SegmentedButton extends View
         if (textWidth < 0)
             return;
 
+        // textPaint.getTypeface() is selectedTextTypeface
+        if (textPaint.getTypeface() != textTypeface)
+            textPaint.setTypeface(textTypeface);
+
         // Create new static layout with width
         // Old way of creating static layout was deprecated but I dont think there is any speed difference between
         // the two
