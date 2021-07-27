@@ -63,7 +63,7 @@ afterEvaluate {
                 artifact tasks.androidSourcesJar
                 groupId = 'com.lisb.android.segmentedbutton'
                 artifactId = 'segmentedbutton'
-                version = '3.1.10-SNAPSHOT'
+                version = '3.1.10'
             }
         }
     }
